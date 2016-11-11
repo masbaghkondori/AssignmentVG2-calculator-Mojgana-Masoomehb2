@@ -283,7 +283,6 @@ public class CalculatorGUI implements ActionListener {
 			btnTemp = null;
 			fieldCheck1 = true;
 		}
-		System.out.println(firstNumber + "" + secondNumber);
 
 		/**
 		 * This if checks '=' and after getting '=' it starts to executing

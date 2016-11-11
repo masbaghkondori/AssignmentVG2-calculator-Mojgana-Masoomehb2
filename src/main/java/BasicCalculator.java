@@ -41,11 +41,17 @@ public class BasicCalculator implements CalculatorBasicOperationsInterface  {
 	 *also checks if it is a infinite division.
 	 */
 	public double divide(double firstNumber, double secondNUmber){
-		double result = firstNumber / secondNUmber;
+		double result=0.0;
+		
+			result = firstNumber / secondNUmber;
+		
+			System.out.println("hej  ");
+		
 		if (Double.isInfinite(result)){
-			JOptionPane.showMessageDialog(null, "division by zero!", "Error message", JOptionPane.ERROR_MESSAGE);			
+			System.out.println("7767878");
 			return -1111.1111;
 		}		
+		
 		
 		return result;
 	}

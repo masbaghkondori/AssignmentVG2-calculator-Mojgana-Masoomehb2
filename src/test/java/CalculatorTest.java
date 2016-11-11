@@ -19,6 +19,9 @@ public class CalculatorTest {
 		double firstNumber = 0.0;
 		double secondNumber = 0.0;
 		double result = 0.0;
+		System.out.println("ADDööööö");
+		
+		
 		for (int i = 0; i < 50; i++) {
 			firstNumber = random.nextDouble()*100;
 			secondNumber = random.nextDouble()*100;
@@ -115,23 +118,23 @@ public class CalculatorTest {
 			assertEquals("The result should be: "+ result, calculator.divide(firstNumber, secondNumber),result,0.111);
 		}
 	}
-	
+		
 
 	@Test
 	public void testDivideZero() {
-		double firstNumber = 0.0;
+		double firstNumber = 1.0;
 		double secondNumber = 0.0;
 		double result =0.0;
-		for (int i = 0; i < 50; i++) {
-			firstNumber = random.nextDouble()*100;
+		//for (int i = 0; i < 50; i++) {
+			//firstNumber = random.nextDouble()*100;
 			result = firstNumber / secondNumber;
 			LOG.info("Testing the divide method with the values" + firstNumber+" and "+ secondNumber);
 			result=calculator.divide(firstNumber, secondNumber);
 			
-			//System.out.println("result: "+result);
+			System.out.println("result kkkkkk: "+result);
 			
 			assertEquals("The result should be: "+ result, calculator.divide(firstNumber, secondNumber),-1111.1111,0.111);
-		}
+	//	}
 	}
 	
 	
