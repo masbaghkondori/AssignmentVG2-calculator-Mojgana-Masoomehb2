@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 
 /**
- * * @author Mojgan-Masoomeh Baghban
+ * * @author Mojgan Akhavan-Masoomeh Baghban
  * 
  * 
  * Class CalculatorGUI for creating the GUI, This class implements
